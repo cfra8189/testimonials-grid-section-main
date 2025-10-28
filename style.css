@@ -6,10 +6,16 @@
     color: hsl(228, 45%, 44%);
  }
 
-body {
+/* body {
     font-family: 'Barlow Semi Condensed', sans-serif;
     font-weight: 500, 600;
     font-size: 13px;
+} */
+
+.barlow-semi-condensed {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 500, 600;
+  font-size: 13px;
 }
 
 .testimonials {
