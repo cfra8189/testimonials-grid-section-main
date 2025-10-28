@@ -28,6 +28,14 @@ img {
 .grad {
     flex-flow: row wrap;
     margin: 10% auto;
+    
+}
+
+.grad-block {
+    
+    display: flex;
+  
+    
 }
 
 .grad-name {
@@ -43,31 +51,38 @@ img {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     margin: 5%;
+    gap: 4%;
+ 
 }
 
 .dan {
 background-color: hsl(263, 55%, 52%);
 color: hsl(0, 0%, 100%);
+  border-radius: 20px;
 }
 
 .jon {
 background-color: hsl(217, 19%, 35%);
 color: hsl(0, 0%, 100%);
+border-radius: 20px;
 }
 
 .jean {
     background-color: hsl(0, 0%, 81%);
     color: hsl(0, 0%, 100%);
+    border-radius: 20px;
 
 }
 
 .pat {
 background-color: hsl(219, 29%, 14%);
 color: hsl(0, 0%, 100%);
+border-radius: 20px;
 }
 
 .kira {
 background-color: hsl(0, 0%, 81%) ;
 color: hsl(0, 0%, 100%);
+border-radius: 20px;
 }
 
