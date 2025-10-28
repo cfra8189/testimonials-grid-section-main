@@ -6,6 +6,12 @@
     color: hsl(228, 45%, 44%);
  }
 
+body {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 500, 600;
+    font-size: 13px;
+}
+
 .testimonials {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -24,7 +30,7 @@ color: hsl(0, 0%, 100%);
 }
 
 .jean {
-    background-color: hsl(210, 46%, 95%);
+    background-color: hsl(0, 0%, 81%);
     color: hsl(0, 0%, 100%);
 
 }
