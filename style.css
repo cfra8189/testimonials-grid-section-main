@@ -6,23 +6,43 @@
     color: hsl(228, 45%, 44%);
  }
 
-/* body {
+body {
     font-family: 'Barlow Semi Condensed', sans-serif;
-    font-weight: 500, 600;
-    font-size: 13px;
-} */
+    
+}
 
-.barlow-semi-condensed {
+.quote {
+    font-weight: 600;
+}
+
+img {
+  border-radius: 50%;
+}
+
+/* .barlow-semi-condensed {
   font-family: "Barlow Semi Condensed", sans-serif;
   font-weight: 500, 600;
   font-size: 13px;
+} */
+
+.grad {
+    flex-flow: row wrap;
+    margin: 10% auto;
+}
+
+.grad-name {
+    font-weight: 500;
+}
+
+.full-text {
+    font-weight: ;
 }
 
 .testimonials {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    margin: 0 auto;
+    margin: 5%;
 }
 
 .dan {
@@ -50,3 +70,4 @@ color: hsl(0, 0%, 100%);
 background-color: hsl(0, 0%, 81%) ;
 color: hsl(0, 0%, 100%);
 }
+
