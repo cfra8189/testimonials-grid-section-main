@@ -7,25 +7,34 @@
  }
 
 .testimonials {
-    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin: 0 auto;
 }
 
 .dan {
-
+background-color: hsl(263, 55%, 52%);
+color: hsl(0, 0%, 100%);
 }
 
 .jon {
-
+background-color: hsl(217, 19%, 35%);
+color: hsl(0, 0%, 100%);
 }
 
 .jean {
+    background-color: hsl(210, 46%, 95%);
+    color: hsl(0, 0%, 100%);
 
 }
 
 .pat {
-
+background-color: hsl(219, 29%, 14%);
+color: hsl(0, 0%, 100%);
 }
 
 .kira {
-
+background-color: hsl(0, 0%, 81%) ;
+color: hsl(0, 0%, 100%);
 }
